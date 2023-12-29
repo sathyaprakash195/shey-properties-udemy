@@ -44,7 +44,7 @@ async function PropertyPage({ params: { id } }: Props) {
     <div>
       <LinkButton title="Back to Properties" path="/" />
 
-      <h1 className="text-2xl font-bold text-primary">{property.name}</h1>
+      <h1 className="text-2xl font-bold text-primary my-5">{property.name}</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         <div className="col-span-2">
